@@ -17,4 +17,4 @@ Desired Outcomes of a Project
 12.	Email Invoice to customer.
 13.	Email pick list and SMS of the order number to store manager
 14.	Notify customer by SMS when order is ready to pick.
-15.	Provide store virtual assistant feature is nice to have.
+15.	Provide store virtual assistant feature
