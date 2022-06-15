@@ -374,7 +374,7 @@ CREATE TABLE `tbl_customer` (
 --
 
 INSERT INTO `tbl_customer` (`cust_id`, `cust_name`, `cust_cname`, `cust_email`, `cust_phone`, `cust_country`, `cust_address`, `cust_city`, `cust_state`, `cust_zip`, `cust_b_name`, `cust_b_cname`, `cust_b_phone`, `cust_b_country`, `cust_b_address`, `cust_b_city`, `cust_b_state`, `cust_b_zip`, `cust_s_name`, `cust_s_cname`, `cust_s_phone`, `cust_s_country`, `cust_s_address`, `cust_s_city`, `cust_s_state`, `cust_s_zip`, `cust_password`, `cust_token`, `cust_datetime`, `cust_timestamp`, `cust_status`) VALUES
-(11, 'suraj ghale', 'nepali taja khabar', 'ghalesuraj97@gmail.com', '9860152480', 154, 'banasthali\r\nsunriseheight', 'kathmandu', 'kathmandu', '00977', 'suraj ghale', 'nepali taja khabar', '9860152480', 154, 'banasthali\r\nsunriseheight', 'kathmandu', 'sydney', '00977', 'suraj ghale', 'nepali taja khabar', '9860152480', 154, 'banasthali\r\nsunriseheight', 'kathmandu', 'kathmandu', '00977', 'e8315c49e2b0b1f0bd2d09714844329b', '3ade229bad1965261c7e5fe626bf7658', '2022-05-15 03:55:11', '1652612111', 1);
+(11, 'nima sherpa', 'nepali taja khabar', 'nimasherpa600@gmail.com', '9860152480', 154, 'banasthali\r\nsunriseheight', 'kathmandu', 'kathmandu', '00977', 'nima sherpa', 'nepali taja khabar', '9860152480', 154, 'banasthali\r\nsunriseheight', 'kathmandu', 'sydney', '00977', 'nima sherpa', 'nepali taja khabar', '9860152480', 154, 'banasthali\r\nsunriseheight', 'kathmandu', 'kathmandu', '00977', 'e8315c49e2b0b1f0bd2d09714844329b', '3ade229bad1965261c7e5fe626bf7658', '2022-05-15 03:55:11', '1652612111', 1);
 
 -- --------------------------------------------------------
 
@@ -395,12 +395,12 @@ CREATE TABLE `tbl_customer_message` (
 --
 
 INSERT INTO `tbl_customer_message` (`customer_message_id`, `subject`, `message`, `order_detail`, `cust_id`) VALUES
-(9, 'test', 'test complete', '\nCustomer Name: suraj ghale<br>\nCustomer Email: ghalesuraj97@gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:02:56<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296576<br>\n            \n<br><b><u>Product Item 1</u></b><br>\nProduct Name: Brocolli<br>\nSize: <br>\nColor: <br>\nQuantity: 1<br>\nUnit Price: 3<br>\n            ', 11),
-(10, 'test', 'test', '\nCustomer Name: suraj ghale<br>\nCustomer Email: ghalesuraj97@gmail.com<br>\nPayment Method: Bank Deposit<br>\nPayment Date: 2022-05-26 22:55:01<br>\nPayment Details: <br>\nTransaction Details: <br>asasas<br>\nPaid Amount: 103<br>\nPayment Status: Pending<br>\nShipping Status: Pending<br>\nPayment Id: 1653630901<br>\n            \n<br><b><u>Product Item 1</u></b><br>\nProduct Name: Brocolli<br>\nSize: <br>\nColor: <br>\nQuantity: 1<br>\nUnit Price: 3<br>\n            ', 11),
-(11, 'test', 'test', '\nCustomer Name: suraj ghale<br>\nCustomer Email: ghalesuraj97@gmail.com<br>\nPayment Method: Bank Deposit<br>\nPayment Date: 2022-05-26 22:55:01<br>\nPayment Details: <br>\nTransaction Details: <br>asasas<br>\nPaid Amount: 103<br>\nPayment Status: Pending<br>\nShipping Status: Pending<br>\nPayment Id: 1653630901<br>\n            \n<br><b><u>Product Item 1</u></b><br>\nProduct Name: Brocolli<br>\nSize: <br>\nColor: <br>\nQuantity: 1<br>\nUnit Price: 3<br>\n            ', 11),
-(12, 'test', 'test', '\nCustomer Name: suraj ghale<br>\nCustomer Email: ghalesuraj97@gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:05:41<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296741<br>\n            ', 11),
-(13, 'test', 'test', '\nCustomer Name: suraj ghale<br>\nCustomer Email: ghalesuraj97@gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:05:41<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296741<br>\n            ', 11),
-(14, 'test', 'test', '\nCustomer Name: suraj ghale<br>\nCustomer Email: ghalesuraj97@gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:05:41<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296741<br>\n            ', 11);
+(9, 'test', 'test complete', '\nCustomer Name: nima sherpa<br>\nCustomer Email: nimasherpa600gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:02:56<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296576<br>\n            \n<br><b><u>Product Item 1</u></b><br>\nProduct Name: Brocolli<br>\nSize: <br>\nColor: <br>\nQuantity: 1<br>\nUnit Price: 3<br>\n            ', 11),
+(10, 'test', 'test', '\nCustomer Name: nima sherpa<br>\nCustomer Email: nimasherpa600@gmail.com<br>\nPayment Method: Bank Deposit<br>\nPayment Date: 2022-05-26 22:55:01<br>\nPayment Details: <br>\nTransaction Details: <br>asasas<br>\nPaid Amount: 103<br>\nPayment Status: Pending<br>\nShipping Status: Pending<br>\nPayment Id: 1653630901<br>\n            \n<br><b><u>Product Item 1</u></b><br>\nProduct Name: Brocolli<br>\nSize: <br>\nColor: <br>\nQuantity: 1<br>\nUnit Price: 3<br>\n            ', 11),
+(11, 'test', 'test', '\nCustomer Name: nima sherpa<br>\nCustomer Email: nimasherpa600@gmail.com<br>\nPayment Method: Bank Deposit<br>\nPayment Date: 2022-05-26 22:55:01<br>\nPayment Details: <br>\nTransaction Details: <br>asasas<br>\nPaid Amount: 103<br>\nPayment Status: Pending<br>\nShipping Status: Pending<br>\nPayment Id: 1653630901<br>\n            \n<br><b><u>Product Item 1</u></b><br>\nProduct Name: Brocolli<br>\nSize: <br>\nColor: <br>\nQuantity: 1<br>\nUnit Price: 3<br>\n            ', 11),
+(12, 'test', 'test', '\nCustomer Name: nima sherpa<br>\nCustomer Email: nimasherpa600@gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:05:41<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296741<br>\n            ', 11),
+(13, 'test', 'test', '\nCustomer Name: nima sherpa<br>\nCustomer Email: nimasherpa600@gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:05:41<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296741<br>\n            ', 11),
+(14, 'test', 'test', '\nCustomer Name: nima sherpa<br>\nCustomer Email: nimasherpa600@gmail.com<br>\nPayment Method: PayPal<br>\nPayment Date: 2022-05-23 02:05:41<br>\nPayment Details: <br>\nTransaction Id: <br>\n        		<br>\nPaid Amount: 103<br>\nPayment Status: Completed<br>\nShipping Status: Pending<br>\nPayment Id: 1653296741<br>\n            ', 11);
 
 -- --------------------------------------------------------
 
@@ -755,10 +755,10 @@ CREATE TABLE `tbl_payment` (
 --
 
 INSERT INTO `tbl_payment` (`id`, `customer_id`, `customer_name`, `customer_email`, `payment_date`, `txnid`, `paid_amount`, `card_number`, `card_cvv`, `card_month`, `card_year`, `bank_transaction_info`, `payment_method`, `payment_status`, `shipping_status`, `payment_id`) VALUES
-(59, 11, 'suraj ghale', 'ghalesuraj97@gmail.com', '2022-05-23 02:02:56', '', 103, '', '', '', '', '', 'PayPal', 'Completed', 'Pending', '1653296576'),
-(60, 11, 'suraj ghale', 'ghalesuraj97@gmail.com', '2022-05-23 02:05:41', '', 103, '', '', '', '', '', 'PayPal', 'Completed', 'Pending', '1653296741'),
-(63, 11, 'suraj ghale', 'ghalesuraj97@gmail.com', '2022-05-31 19:53:33', '', 127, '', '', '', '', '', 'PayPal', 'Pending', 'Pending', '1654052013'),
-(64, 11, 'suraj ghale', 'ghalesuraj97@gmail.com', '2022-05-31 19:54:18', '', 127, '', '', '', '', 'pay', 'Bank Deposit', 'Completed', 'Pending', '1654052058');
+(59, 11, 'nima sherpa', 'nimasherpa600@gmail.com', '2022-05-23 02:02:56', '', 103, '', '', '', '', '', 'PayPal', 'Completed', 'Pending', '1653296576'),
+(60, 11, 'nima sherpa', 'nimasherpa600@gmail.com', '2022-05-23 02:05:41', '', 103, '', '', '', '', '', 'PayPal', 'Completed', 'Pending', '1653296741'),
+(63, 11, 'nima sherpa', 'nimasherpa600@gmail.com', '2022-05-31 19:53:33', '', 127, '', '', '', '', '', 'PayPal', 'Pending', 'Pending', '1654052013'),
+(64, 11, 'nima sherpa', 'nimasherpa600@gmail.com', '2022-05-31 19:54:18', '', 127, '', '', '', '', 'pay', 'Bank Deposit', 'Completed', 'Pending', '1654052058');
 
 -- --------------------------------------------------------
 
@@ -866,7 +866,7 @@ INSERT INTO `tbl_product` (`p_id`, `p_name`, `p_old_price`, `p_current_price`, `
 (117, 'Green Pepper', '', '3', 100, 'product-featured-117.png', '', '', '', '', '', 0, 0, 1, 80),
 (118, 'Mushrooms', '', '4', 100, 'product-featured-118.jpg', '', '', '', '', '', 0, 0, 1, 80),
 (119, 'Onions', '', '3', 100, 'product-featured-119.jpg', '', '', '', '', '', 0, 0, 1, 80),
-(120, 'Potatoe', '', '3', 100, 'product-featured-120.jpg', '', '', '', '', '', 3, 0, 1, 80),
+(120, 'Potato', '', '3', 100, 'product-featured-120.jpg', '', '', '', '', '', 3, 0, 1, 80),
 (121, 'Tomato', '', '4', 100, 'product-featured-121.jpg', '', '', '', '', '', 0, 0, 1, 80),
 (122, 'Pork Belly', '', '16', 100, 'product-featured-122.jpg', '', '', '', '', '', 0, 1, 1, 81),
 (123, 'Whole Chicken', '', '8', 100, 'product-featured-123.jpg', '', '', '', '', '', 0, 1, 1, 81),
